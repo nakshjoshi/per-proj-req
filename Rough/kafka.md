@@ -3,3 +3,4 @@ Soln kafka: has high thorough , will not down on high OP/s, but not a direct alt
 Soln: Kafka + DB: \
 Data Produceer->Kafka->Consumer(diff services)->DB(bulk insert)
 Inside Kafka you have topics(logical partions of data), inside topic you have may multiple partitions but partioning is not dome based on time it is doen based on field .kafka does auto balancing betwencosumers and partitions , consumer gtoups sove this by balancing partions acress gorup members and groups, partition sharing happens first at group level, then at individual level 
+
